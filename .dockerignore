@@ -1,0 +1,6 @@
+.git
+.git/*
+*.pt
+*.bin
+*.safetensors
+build
