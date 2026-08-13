@@ -35,7 +35,7 @@ RUN cmake -B build \
     -DCMAKE_BUILD_TYPE=Release \
     -DCUDAToolkit_ROOT=/usr/local/cuda-11.8 \
     -DGGML_CUDA=ON \
-    -DCMAKE_CUDA_ARCHITECTURES="61;75"
+    -DCMAKE_CUDA_ARCHITECTURES="61-real;75-real;80-real;86-real;89-real"
 
 RUN cmake --build build
 
