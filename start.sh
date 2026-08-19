@@ -44,8 +44,8 @@ download_model() {
 
 
 download_model "Qwen3-Embedding-0.6B-Q8_0.gguf"
-download_model "acestep-5Hz-lm-4B-Q5_K_M.gguf"
-download_model "acestep-v15-sft-Q4_K_M.gguf"
+download_model "acestep-5Hz-lm-4B-Q6_K.gguf"
+download_model "acestep-v15-xl-sft-Q6_K.gguf"
 download_model "vae-BF16.gguf"
 
 

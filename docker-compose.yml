@@ -1,6 +1,6 @@
 services:
   acestep:
-    image: mungert/acestep-cuda118:0.0.1
+    image: mungert/acestep-cuda118:0.0.3
     container_name: acestep
     restart: unless-stopped
 
